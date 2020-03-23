@@ -6,7 +6,7 @@ class Account
 
   def initialize(balance = 0, history = Bank.new)
     @balance = balance
-    p @history = history
+    @history = history
   end
 
   def add(amount, date)
