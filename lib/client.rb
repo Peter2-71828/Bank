@@ -12,7 +12,8 @@ class Client
   end
 
   def withdrawal(amount)
-    puts "Balance: -#{amount}"
+    @account.reduce(amount)
+    puts "Balance: #{@account.balance}"
   end
 
   def statement
