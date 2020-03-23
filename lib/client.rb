@@ -4,4 +4,8 @@ class Client
 
   end
 
+  def withdrawal(amount)
+
+  end
+
 end
