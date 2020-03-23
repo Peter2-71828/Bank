@@ -10,4 +10,8 @@ describe Client do
     expect(subject).to respond_to(:withdrawal)
   end
 
+  it 'client should have statement method' do
+    expect(subject).to respond_to(:statement)
+  end
+  
 end
