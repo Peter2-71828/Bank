@@ -6,6 +6,7 @@ Makers on-sight course week 10 first tech test
 
 * [Description](#description)
 * [User Stories](#user-stories)
+* [Approach](#approach)
 * [Technologies](#technologies)
 * [How To Use](#how-to-use)
 * [Sources](#sources)
@@ -37,12 +38,27 @@ Makers on-sight course week 10 first tech test
     with the date, amount and resulting balance
     in my account from my transactions
 
+## Approach
+
+  A TDD approach was taken for the project. Initially requirements where transformed into user stories and then subsequently feature tests where written and solved.
+
+  Three classes where used to enable separation of responsibilities. An  Account class was created to contain the logic for executing transactions, i.e. deposits and withdrawals, a Bank class for recording transactional data and a Client class for interacting with the two other classes.
+
 ## Technologies
 
 * Ruby 2.7.0
 * RSpec 3.9
 
 ## How To Use
+
+![Alt text](./Screenshot.png?raw=true "Screenshot")
+
+### Install Dependencies
+  * run ```bundle install```
+
+### Testing and Development
+  * run RSpec and SimpleCov from ```/Bank``` run ```rspec```
+  * run rubocop from ```/Bank``` run ```rubocop```
 
 ### Core Functionality
 * Launch in repl: ```irb -r ./lib/client.rb```  
@@ -57,5 +73,5 @@ Makers on-sight course week 10 first tech test
   * Specify date of withdrawal (day/month/year): ```name.withdrawal(10, '18/01/2020')```
 
 ## Sources
-    
+
 [Github tech test outline](https://github.com/makersacademy/course/blob/master/individual_challenges/bank_tech_test.md)
