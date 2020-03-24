@@ -15,5 +15,4 @@ class Bank
     @statement.each { |transaction| puts transaction.values.join(' || ') }
   end
 
-
 end

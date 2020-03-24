@@ -11,12 +11,16 @@ class Account
 
   def add(amount, date)
     @balance += amount
-    @history.new(date, 'credit', sprintf('%.2f', amount), sprintf('%.2f', @balance))
+    @history.new(date, 'credit', two_dp(amount), two_dp(@balance))
   end
 
   def reduce(amount, date)
     @balance -= amount
-    @history.new(date, 'debit', sprintf('%.2f', amount), sprintf('%.2f', @balance))
+    @history.new(date, 'debit', two_dp(amount), two_dp(@balance))
+  end
+
+  def two_dp(value)
+    format('%<value>.2f', value: value)
   end
 
 end
