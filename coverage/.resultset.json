@@ -82,7 +82,7 @@
           null
         ]
       },
-      "/Users/peterdean/Projects/TechTests/Bank/lib/bank.rb": {
+      "/Users/peterdean/Projects/TechTests/Bank/lib/statement.rb": {
         "lines": [
           1,
           null,
@@ -130,6 +130,6 @@
         ]
       }
     },
-    "timestamp": 1585058932
+    "timestamp": 1585088190
   }
 }

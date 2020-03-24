@@ -1,4 +1,4 @@
-class Bank
+class Statement
 
   def initialize
     @statement = []

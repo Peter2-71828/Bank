@@ -1,6 +1,6 @@
 require 'client'
 require 'account'
-require 'bank'
+require 'statement'
 
 describe Client do
 

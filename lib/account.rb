@@ -1,10 +1,10 @@
-require './lib/bank.rb'
+require './lib/statement.rb'
 
 class Account
 
   attr_reader :balance, :history
 
-  def initialize(balance = 0, history = Bank.new)
+  def initialize(balance = 0, history = Statement.new)
     @balance = balance
     @history = history
   end
