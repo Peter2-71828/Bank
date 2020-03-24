@@ -57,6 +57,5 @@ Makers on-sight course week 10 first tech test
   * Specify date of withdrawal (day/month/year): ```name.withdrawal(10, '18/01/2020')```
 
 ## Sources
-
-Original tech test outline     
-[Github tutorial link](https://github.com/makersacademy/course/blob/master/individual_challenges/bank_tech_test.md)
+    
+[Github tech test outline](https://github.com/makersacademy/course/blob/master/individual_challenges/bank_tech_test.md)
